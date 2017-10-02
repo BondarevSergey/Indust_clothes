@@ -1,0 +1,29 @@
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	width: 1170px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+}
+
+.container:after {
+	display: block;
+	content: '';
+	clear: both;
+}
+
+.clearfix:after {
+	display: block;
+	content: '';
+	clear: both;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+	margin-top: 0;
+	margin-bottom: 0; 
+}
