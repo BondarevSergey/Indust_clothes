@@ -66,7 +66,7 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    width: 25%; 
+    width: 25%;
     height: 31px;
     border-width: 0;
     background-color: #002ab1;
@@ -84,7 +84,6 @@ input[type="submit"] {
     align-items: center;
     flex-wrap: wrap;
 }
-
 
 
 .menu__item a {
@@ -129,7 +128,7 @@ input[type="submit"] {
     opacity: 1;
 }
 
-.owl-carousel-1  .owl-nav [class*=owl-prev] {
+.owl-carousel-1 .owl-nav [class*=owl-prev] {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -141,7 +140,7 @@ input[type="submit"] {
     background: url(../images/prev.png) no-repeat #606263 50% 50%;
 }
 
-.owl-carousel-1  .owl-nav [class*=owl-prev]:hover {
+.owl-carousel-1 .owl-nav [class*=owl-prev]:hover {
     background: url(../images/prev.png) no-repeat #606263 50% 50%;
 }
 
@@ -155,7 +154,7 @@ input[type="submit"] {
     margin-bottom: auto;
     margin-top: auto;
     background: url(../images/next.png) no-repeat #606263 50% 50%;
-} 
+}
 
 .owl-carousel-1 .owl-nav [class*=owl-next]:hover {
     background: url(../images/next.png) no-repeat #606263 50% 50%;
@@ -172,7 +171,7 @@ input[type="submit"] {
 
 .owl-carousel-1 .owl-dots .owl-dot span {
     border: 2px solid #ffffff;
-    background: rgba(0,0,0,0);
+    background: rgba(0, 0, 0, 0);
 }
 
 .owl-carousel-1 .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
@@ -191,13 +190,14 @@ h1 {
     font-size: 26px;
 }
 
-.category__item {   
+.category__item {
     float: left;
     width: 20%;
     padding: 0 6px;
     margin-bottom: 25px;
     border-bottom-left-radius: 3px;
 }
+
 .category__item__iner {
     position: relative;
     border-radius: 0 0 4px 4px;
@@ -217,21 +217,21 @@ h1 {
 .product-name-link {
     position: absolute;
     bottom: 0;
-    width: 100%; 
+    width: 100%;
     padding: 10px 5px;
-    background-color: rgba(219,219,219,0.9);
+    background-color: rgba(219, 219, 219, 0.9);
     text-align: center;
     color: #000;
     font-weight: 600;
 }
 
-.bestseller {   
+.bestseller {
     padding: 30px 0 50px;
-    background-color: #ededed; 
+    background-color: #ededed;
 }
 
 .bestseller .container {
-    position: relative; 
+    position: relative;
 }
 
 .bestseller h2 {
@@ -245,17 +245,17 @@ h1 {
     position: static !important;
 }
 
-.owl-carousel-2  .owl-nav [class*=owl-prev] {
+.owl-carousel-2 .owl-nav [class*=owl-prev] {
     position: absolute;
     top: 5px;
-    right: 80px; 
+    right: 80px;
     width: 11px;
-    height: 20px; 
+    height: 20px;
     background: url(../images/prev2.png) no-repeat;
     background-size: cover;
 }
 
-.owl-carousel-2  .owl-nav [class*=owl-prev]:hover {
+.owl-carousel-2 .owl-nav [class*=owl-prev]:hover {
     background: url(../images/prev2.png) no-repeat;
     background-size: cover;
 }
@@ -268,7 +268,7 @@ h1 {
     height: 20px;
     background: url(../images/next2.png) no-repeat;
     background-size: cover;
-} 
+}
 
 .owl-carousel-2 .owl-nav [class*=owl-next]:hover {
     background: url(../images/next2.png) no-repeat;
@@ -302,9 +302,9 @@ h1 {
 .bestseller .product-name-link {
     position: absolute;
     bottom: 0;
-    width: 100%; 
+    width: 100%;
     padding: 20px 0;
-    background-color: rgba(219,219,219,0.9);
+    background-color: rgba(219, 219, 219, 0.9);
     text-align: center;
     color: #000;
     font-weight: 600;
